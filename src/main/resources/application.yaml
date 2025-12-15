@@ -1,3 +1,8 @@
 spring:
   application:
     name: Hexagonal Order Management
+
+server:
+  port: 8082
+  servlet:
+    context-path: /order-management
